@@ -1,8 +1,753 @@
-<HTML>
-<HEAD>
-<STYLE>
-</STYLE>
-</HEAD>
-<BODY>
-</BODY>
-</HTML>
+<!-- ******************************************* -->
+<!--                             __              -->
+<!--                           .d$$b             -->
+<!--                         .' TO$;\            -->
+<!--                        /  : TP._;           -->
+<!--                       / _.;  :Tb|           -->
+<!--                      /   /   ;j$j           -->
+<!--                  _.-"       d$$$$           -->
+<!--                .' ..       d$$$$;           -->
+<!--               /  /P'      d$$$$P. |\        -->
+<!--              /   "      .d$$$P' |\^"l       -->
+<!--            .'           `T$P^"""""  :       -->
+<!--        ._.'      _.'               ;        -->
+<!--      .-".-'-' ._.       _.-"    .-"         -->
+<!--  `.-" _____  ._              .-"            -->
+<!-- (.g$$$$$$$b.              .'                -->
+<!--    ""^^T$$$P^)          .(:                 -->
+<!--     /  -"  /.'         /:/;                 -->
+<!-- ._.'-'`-'  ")/         /;/;                 -->
+<!-- ******************************************* -->
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Mendeleiev</title>
+  <style>
+    td {
+      border-width: 1px;
+      border-style: solid;
+      border-color: black;
+      width: 100px;
+    }
+    .no-element {
+      border: none;
+    }
+    .space-no-element {
+      border: none;
+      height: 42px;
+    }
+    .masse {
+      float: right;
+      font-size: 10px;
+    }
+    .symbol {
+      font-size: 30px;
+      text-align: center;
+      font-weight: bold;
+    }
+    .number {
+      float: left;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .color-purple {
+      background-color: #d9b3ff;
+    }
+    .color-orange {
+      background-color: #ffcc80;
+    }
+    .color-light-brown {
+      background-color: #d2a679;
+    }
+    .color-yellow {
+      background-color: #ffff80;
+    }
+    .color-yellow-light {
+      background-color: #ffffcc;
+    }
+    .color-green {
+      background-color: #00b300;
+    }
+    .color-strong-green {
+      background-color: #006600;
+    }
+    .color-light-green {
+      background-color: #80ffbf;
+    }
+    .color-grey {
+      background-color: #999999;
+    }
+    .color-pink {
+      background-color: #ffccff
+    }
+    .color-blue {
+      background-color: #99ccff;
+    }
+  </style>
+</head>
+
+<body background="https://im.indiatimes.in/content/2019/Mar/good_side_of_walter_white_heres_why_we_think_he_wasnt_a_villain_but_the_hero_of_breaking_bad_1551782718.jpg?w=2184&h=1116&cc=1">
+  <table>
+    <tr>
+      <td class="color-purple">
+        <div class="masse">1.0079</div><br>
+        <div class="symbol">H</div><br>
+        <div class="number">1</div>
+      </td>
+      </div>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="color-blue">
+        <div class="masse">4.0026</div><br>
+        <div class="symbol">He</div><br>
+        <div class="number">2</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="color-orange">
+        <div class="masse">6.941</div><br>
+        <div class="symbol">Li</div><br>
+        <div class="number">3</div>
+      </td>
+      <td class="color-light-brown">
+        <div class="masse">9.0122</div><br>
+        <div class="symbol">Be</div><br>
+        <div class="number">4</div>
+      </td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="color-light-green">
+        <div class="masse">10.811</div><br>
+        <div class="symbol">B</div><br>
+        <div class="number">5</div>
+      </td>
+      <td class="color-purple">
+        <div class="masse">12.011</div><br>
+        <div class="symbol">C</div><br>
+        <div class="number">6</div>
+      </td>
+      <td class="color-purple">
+        <div class="masse">14.007</div><br>
+        <div class="symbol">N</div><br>
+        <div class="number">7</div>
+      </td>
+      <td class="color-purple">
+        <div class="masse">15.999</div><br>
+        <div class="symbol">O</div><br>
+        <div class="number">8</div>
+      </td>
+      <td class="color-pink">
+        <div class="masse">18.998</div><br>
+        <div class="symbol">F</div><br>
+        <div class="number">9</div>
+      </td>
+      <td class="color-blue">
+        <div class="masse">20.180</div><br>
+        <div class="symbol">Ne</div><br>
+        <div class="number">10</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="color-orange">
+        <div class="masse">22.990</div><br>
+        <div class="symbol">Na</div><br>
+        <div class="number">11</div>
+      </td>
+      <td class="color-light-brown">
+        <div class="masse">24.305</div><br>
+        <div class="symbol">Mg</div><br>
+        <div class="number">12</div>
+      </td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="color-yellow">
+        <div class="masse">26.982</div><br>
+        <div class="symbol">Al</div><br>
+        <div class="number">13</div>
+      </td>
+      <td class="color-light-green">
+        <div class="masse">28.086</div><br>
+        <div class="symbol">Si</div><br>
+        <div class="number">14</div>
+      </td>
+      <td class="color-purple">
+        <div class="masse">30.974</div><br>
+        <div class="symbol">P</div><br>
+        <div class="number">15</div>
+      </td>
+      <td class="color-purple">
+        <div class="masse">32.065</div><br>
+        <div class="symbol">S</div><br>
+        <div class="number">16</div>
+      </td>
+      <td class="color-pink">
+        <div class="masse">35.453</div><br>
+        <div class="symbol">Cl</div><br>
+        <div class="number">17</div>
+      </td>
+      <td class="color-blue">
+        <div class="masse">39.948</div><br>
+        <div class="symbol">Ar</div><br>
+        <div class="number">18</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="color-orange">
+        <div class="masse">39.098</div><br>
+        <div class="symbol">K</div><br>
+        <div class="number">19</div>
+      </td>
+      <td class="color-light-brown">
+        <div class="masse">40.078</div><br>
+        <div class="symbol">Ca</div><br>
+        <div class="number">20</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">44.956</div><br>
+        <div class="symbol">Sc</div><br>
+        <div class="number">21</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">47.867</div><br>
+        <div class="symbol">Ti</div><br>
+        <div class="number">22</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">50.942</div><br>
+        <div class="symbol">V</div><br>
+        <div class="number">23</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">51.996</div><br>
+        <div class="symbol">Cr</div><br>
+        <div class="number">24</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">54.938</div><br>
+        <div class="symbol">Mn</div><br>
+        <div class="number">25</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">55.845</div><br>
+        <div class="symbol">Fe</div><br>
+        <div class="number">26</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">58.933</div><br>
+        <div class="symbol">Co</div><br>
+        <div class="number">27</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">58.693</div><br>
+        <div class="symbol">Ni</div><br>
+        <div class="number">28</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">63.546</div><br>
+        <div class="symbol">Cu</div><br>
+        <div class="number">29</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">65.39</div><br>
+        <div class="symbol">Zn</div><br>
+        <div class="number">30</div>
+      </td>
+      <td class="color-yellow">
+        <div class="masse">69.723</div><br>
+        <div class="symbol">Ga</div><br>
+        <div class="number">31</div>
+      </td>
+      <td class="color-light-green">
+        <div class="masse">72.64</div><br>
+        <div class="symbol">Ge</div><br>
+        <div class="number">32</div>
+      </td>
+      <td class="color-light-green">
+        <div class="masse">74.922</div><br>
+        <div class="symbol">As</div><br>
+        <div class="number">33</div>
+      </td>
+      <td class="color-purple">
+        <div class="masse">78.96</div><br>
+        <div class="symbol">Se</div><br>
+        <div class="number">34</div>
+      </td>
+      <td class="color-pink">
+        <div class="masse">79.904</div><br>
+        <div class="symbol">Br</div><br>
+        <div class="number">35</div>
+      </td>
+      <td class="color-blue">
+        <div class="masse">83.80</div><br>
+        <div class="symbol">Kr</div><br>
+        <div class="number">36</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="color-orange">
+        <div class="masse">85.4678</div><br>
+        <div class="symbol">Rb</div><br>
+        <div class="number">37</div>
+      </td>
+      <td class="color-light-brown">
+        <div class="masse">87.62</div><br>
+        <div class="symbol">Sr</div><br>
+        <div class="number">38</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">88.90585</div><br>
+        <div class="symbol">Y</div><br>
+        <div class="number">39</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">91.224</div><br>
+        <div class="symbol">Zr</div><br>
+        <div class="number">40</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">92.90638</div><br>
+        <div class="symbol">Nb</div><br>
+        <div class="number">41</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">95.96</div><br>
+        <div class="symbol">Mo</div><br>
+        <div class="number">42</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">(98)</div><br>
+        <div class="symbol">Tc</div><br>
+        <div class="number">43</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">101.07</div><br>
+        <div class="symbol">Ru</div><br>
+        <div class="number">44</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">102.9055</div><br>
+        <div class="symbol">Rh</div><br>
+        <div class="number">45</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">106.42</div><br>
+        <div class="symbol">Pd</div><br>
+        <div class="number">46</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">107.8682</div><br>
+        <div class="symbol">Ag</div><br>
+        <div class="number">47</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">112.441</div><br>
+        <div class="symbol">Cd</div><br>
+        <div class="number">48</div>
+      </td>
+      <td class="color-yellow">
+        <div class="masse">114.818</div><br>
+        <div class="symbol">In</div><br>
+        <div class="number">49</div>
+      </td>
+      <td class="color-yellow">
+        <div class="masse">118.710</div><br>
+        <div class="symbol">Sn</div><br>
+        <div class="number">50</div>
+      </td>
+      <td class="color-light-green">
+        <div class="masse">121.760</div><br>
+        <div class="symbol">Sb</div><br>
+        <div class="number">51</div>
+      </td>
+      <td class="color-light-green">
+        <div class="masse">127.60</div><br>
+        <div class="symbol">Te</div><br>
+        <div class="number">52</div>
+      </td>
+      <td class="color-pink">
+        <div class="masse">126.9044</div><br>
+        <div class="symbol">I</div><br>
+        <div class="number">53</div>
+      </td>
+      <td class="color-blue">
+        <div class="masse">131.293</div><br>
+        <div class="symbol">Xe</div><br>
+        <div class="number">54</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="color-orange">
+        <div class="masse">132.9054</div><br>
+        <div class="symbol">Cs</div><br>
+        <div class="number">55</div>
+      </td>
+      <td class="color-light-brown">
+        <div class="masse">137.327</div><br>
+        <div class="symbol">Ba</div><br>
+        <div class="number">56</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">174.9668</div><br>
+        <div class="symbol">Lu</div><br>
+        <div class="number">71</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">178.49</div><br>
+        <div class="symbol">Hf</div><br>
+        <div class="number">72</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">180.9478</div><br>
+        <div class="symbol">Ta</div><br>
+        <div class="number">73</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">183.84</div><br>
+        <div class="symbol">W</div><br>
+        <div class="number">74</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">186.207</div><br>
+        <div class="symbol">Re</div><br>
+        <div class="number">75</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">190.23</div><br>
+        <div class="symbol">Os</div><br>
+        <div class="number">76</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">192.217</div><br>
+        <div class="symbol">Ir</div><br>
+        <div class="number">77</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">195.084</div><br>
+        <div class="symbol">Pt</div><br>
+        <div class="number">78</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">196.9665</div><br>
+        <div class="symbol">Au</div><br>
+        <div class="number">79</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">200.59</div><br>
+        <div class="symbol">Hg</div><br>
+        <div class="number">80</div>
+      </td>
+      <td class="color-yellow">
+        <div class="masse">204.3833</div><br>
+        <div class="symbol">Tl</div><br>
+        <div class="number">81</div>
+      </td>
+      <td class="color-yellow">
+        <div class="masse">207.2</div><br>
+        <div class="symbol">Pb</div><br>
+        <div class="number">82</div>
+      </td>
+      <td class="color-yellow">
+        <div class="masse">208.9804</div><br>
+        <div class="symbol">Bi</div><br>
+        <div class="number">83</div>
+      </td>
+      <td class="color-light-green">
+        <div class="masse">(210)</div><br>
+        <div class="symbol">Po</div><br>
+        <div class="number">84</div>
+      </td>
+      <td class="color-pink">
+        <div class="masse">(210)</div><br>
+        <div class="symbol">At</div><br>
+        <div class="number">85</div>
+      </td>
+      <td class="color-blue">
+        <div class="masse">(220)</div><br>
+        <div class="symbol">Rn</div><br>
+        <div class="number">86</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="color-orange">
+        <div class="masse">(223)</div><br>
+        <div class="symbol">Fr</div><br>
+        <div class="number">87</div>
+      </td>
+      <td class="color-light-brown">
+        <div class="masse">(226)</div><br>
+        <div class="symbol">Ra</div><br>
+        <div class="number">88</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">(262)</div><br>
+        <div class="symbol">Lr</div><br>
+        <div class="number">103</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">(261)</div><br>
+        <div class="symbol">Rf</div><br>
+        <div class="number">104</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">(262)</div><br>
+        <div class="symbol">Db</div><br>
+        <div class="number">105</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">(266)</div><br>
+        <div class="symbol">Sg</div><br>
+        <div class="number">106</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">(264)</div><br>
+        <div class="symbol">Bh</div><br>
+        <div class="number">107</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">(277)</div><br>
+        <div class="symbol">Hs</div><br>
+        <div class="number">108</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">(268)</div><br>
+        <div class="symbol">Mt</div><br>
+        <div class="number">109</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">(271)</div><br>
+        <div class="symbol">Ds</div><br>
+        <div class="number">110</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">(272)</div><br>
+        <div class="symbol">Rg</div><br>
+        <div class="number">111</div>
+      </td>
+      <td class="color-yellow-light">
+        <div class="masse">(285)</div><br>
+        <div class="symbol">Cn</div><br>
+        <div class="number">112</div>
+      </td>
+      <td class="color-grey">
+        <div class="masse">(284)</div><br>
+        <div class="symbol">Uut</div><br>
+        <div class="number">113</div>
+      </td>
+      <td class="color-grey">
+        <div class="masse">(289)</div><br>
+        <div class="symbol">Fl</div><br>
+        <div class="number">114</div>
+      </td>
+      <td class="color-grey">
+        <div class="masse">(288)</div><br>
+        <div class="symbol">Uup</div><br>
+        <div class="number">115</div>
+      </td>
+      <td class="color-grey">
+        <div class="masse">(292)</div><br>
+        <div class="symbol">Lv</div><br>
+        <div class="number">116</div>
+      </td>
+      <td class="color-grey">
+        <div class="masse"></div><br>
+        <div class="symbol">Uus</div><br>
+        <div class="number">117</div>
+      </td>
+      <td class="color-grey">
+        <div class="masse">(294)</div><br>
+        <div class="symbol">Uuo</div><br>
+        <div class="number">118</div>
+      </td>
+    </tr>
+    <tr>
+      <td class="space-no-element"></td>
+    </tr>
+    <tr>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="color-green">
+        <div class="masse">138.9054</div><br>
+        <div class="symbol">La</div><br>
+        <div class="number">57</div>
+      </td>
+      <td class="color-green">
+        <div class="masse">140.116</div><br>
+        <div class="symbol">Ce</div><br>
+        <div class="number">58</div>
+      </td>
+      <td class="color-green">
+        <div class="masse">140.9076</div><br>
+        <div class="symbol">Pr</div><br>
+        <div class="number">59</div>
+      </td>
+      <td class="color-green">
+        <div class="masse">144.242</div><br>
+        <div class="symbol">Nd</div><br>
+        <div class="number">60</div>
+      </td>
+      <td class="color-green">
+        <div class="masse">(145)</div><br>
+        <div class="symbol">Pm</div><br>
+        <div class="number">61</div>
+      </td>
+      <td class="color-green">
+        <div class="masse">150.36</div><br>
+        <div class="symbol">Sm</div><br>
+        <div class="number">62</div>
+      </td>
+      <td class="color-green">
+        <div class="masse">151.964</div><br>
+        <div class="symbol">Eu</div><br>
+        <div class="number">63</div>
+      </td>
+      <td class="color-green">
+        <div class="masse">157.25</div><br>
+        <div class="symbol">Gd</div><br>
+        <div class="number">64</div>
+      </td>
+      <td class="color-green">
+        <div class="masse">158.9253</div><br>
+        <div class="symbol">Tb</div><br>
+        <div class="number">65</div>
+      </td>
+      <td class="color-green">
+        <div class="masse">162.500</div><br>
+        <div class="symbol">Dy</div><br>
+        <div class="number">66</div>
+      </td>
+      <td class="color-green">
+        <div class="masse">164.9303</div><br>
+        <div class="symbol">Ho</div><br>
+        <div class="number">67</div>
+      </td>
+      <td class="color-green">
+        <div class="masse">167.259</div><br>
+        <div class="symbol">Er</div><br>
+        <div class="number">68</div>
+      </td>
+      <td class="color-green">
+        <div class="masse">168.9342</div><br>
+        <div class="symbol">Tm</div><br>
+        <div class="number">69</div>
+      </td>
+      <td class="color-green">
+        <div class="masse">173.054</div><br>
+        <div class="symbol">Yb</div><br>
+        <div class="number">70</div>
+      </td>
+      <td class="no-element"></td>
+    </tr>
+    <tr>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="no-element"></td>
+      <td class="color-strong-green">
+        <div class="masse">(227)</div><br>
+        <div class="symbol">Ac</div><br>
+        <div class="number">89</div>
+      </td>
+      <td class="color-strong-green">
+        <div class="masse">232.0380</div><br>
+        <div class="symbol">Th</div><br>
+        <div class="number">90</div>
+      </td>
+      <td class="color-strong-green">
+        <div class="masse">231.0358</div><br>
+        <div class="symbol">Pa</div><br>
+        <div class="number">91</div>
+      </td>
+      <td class="color-strong-green">
+        <div class="masse">238.0289</div><br>
+        <div class="symbol">U</div><br>
+        <div class="number">92</div>
+      </td>
+      <td class="color-strong-green">
+        <div class="masse">(237)</div><br>
+        <div class="symbol">Np</div><br>
+        <div class="number">93</div>
+      </td>
+      <td class="color-strong-green">
+        <div class="masse">(244)</div><br>
+        <div class="symbol">Pu</div><br>
+        <div class="number">94</div>
+      </td>
+      <td class="color-strong-green">
+        <div class="masse">(243)</div><br>
+        <div class="symbol">Am</div><br>
+        <div class="number">95</div>
+      </td>
+      <td class="color-strong-green">
+        <div class="masse">(247)</div><br>
+        <div class="symbol">Cm</div><br>
+        <div class="number">96</div>
+      </td>
+      <td class="color-strong-green">
+        <div class="masse">(247)</div><br>
+        <div class="symbol">Bk</div><br>
+        <div class="number">97</div>
+      </td>
+      <td class="color-strong-green">
+        <div class="masse">(251)</div><br>
+        <div class="symbol">Cf</div><br>
+        <div class="number">98</div>
+      </td>
+      <td class="color-strong-green">
+        <div class="masse">(252)</div><br>
+        <div class="symbol">Es</div><br>
+        <div class="number">99</div>
+      </td>
+      <td class="color-strong-green">
+        <div class="masse">(257)</div><br>
+        <div class="symbol">Fm</div><br>
+        <div class="number">100</div>
+      </td>
+      <td class="color-strong-green">
+        <div class="masse">(258)</div><br>
+        <div class="symbol">Md</div><br>
+        <div class="number">101</div>
+      </td>
+      <td class="color-strong-green">
+        <div class="masse">(259)</div><br>
+        <div class="symbol">No</div><br>
+        <div class="number">102</div>
+      </td>
+      <td class="no-element"></td>
+    </tr>
+  </table>
+</body>
+
+</html>
