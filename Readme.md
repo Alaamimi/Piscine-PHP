@@ -1,3 +1,4 @@
+## ================UPDATES ON GOING==================
 # Intro :
 The first day of the piscine starts with the fundamentals of HTML and CSS and… with the fundamentals 
 you can build a webpage.
@@ -5,7 +6,6 @@ All languages included in this piscine:
 * HTML.
 * CSS.
 * PHP.
-* Web Server.
 * SQL.
 * JQUERY / JAVASCRIPT.
 
@@ -37,8 +37,9 @@ Start learning web for free, a good reference to check before even putting a fir
 * Rush00: A small but complete on line store.
 
 # Compilation:
+HTML compilation is made on your browsers, set your file path on the search bar and press "Return", as much easy as it sounds.
 
 # Guides && Ressources:
-* <A HREF="https://www.w3schools.com/html/html_intro.asp"w3schools</a>
+* <A HREF="https://www.w3schools.com/html/html_intro.asp">w3schools</a>
 * <A HREF="https://github.com/Alaamimi/Programming_Books/blob/master/Learn%20CSS%20in%20One%20Day%20and%20Learn%20It%20Well%20(Includes%20HTML5)%20CSS%20for%20Beginners%20with%20Hands-on%20Project%20(Volume%202)%20by%20Jamie%20Chan%20(z-lib.org).epub">Free Ebook</A> <BR>
 ====REPOSITORY UPDATES ON GOING====
