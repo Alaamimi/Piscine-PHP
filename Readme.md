@@ -1,16 +1,3 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    Readme.md                                          :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: alaamimi <alaamimi@student.42.fr>          +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2020/12/13 18:06:55 by alaamimi          #+#    #+#              #
-#    Updated: 2020/12/13 18:14:36 by alaamimi         ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
-
-
 ## ================UPDATES ON GOING==================
 # Intro :
 The first day of the piscine starts with the fundamentals of HTML and CSS also more useful frameworks… 
